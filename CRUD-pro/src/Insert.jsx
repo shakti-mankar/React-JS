@@ -1,7 +1,10 @@
 import { useState } from "react"
 import axios from "axios"
+import { useNavigate } from "react-router-dom"
 
 function Insert() {
+
+    let  nav = useNavigate() 
 
 
             let [frmdata,setFrmdata] = useState({name:"",age:"",contact:"",city:""})
@@ -15,6 +18,7 @@ function Insert() {
             e.preventDefault()
             axios.post('http://localhost:3000/userdata',frmdata)
             .then((e)=>alert("success...."))
+            nav('./fetch')
         }
 
 

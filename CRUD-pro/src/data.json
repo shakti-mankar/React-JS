@@ -8,32 +8,18 @@
       "id": "f6e5"
     },
     {
-      "id": "7581",
-      "name": "Shakti Mankar",
-      "age": "20",
-      "contact": "6232711254",
-      "city": "Bhopal"
-    },
-    {
-      "id": "a311",
-      "name": "Shakti Mankar",
-      "age": "20",
-      "contact": "6232711254",
-      "city": "Bhopal"
-    },
-    {
-      "id": "7cde",
-      "name": "Shakti Mankar",
-      "age": "20",
-      "contact": "6232711254",
-      "city": "Bhopal"
-    },
-    {
       "id": "4b72",
       "name": "Shakti Mankar",
       "age": "20",
       "contact": "6232711254",
       "city": "Bhopal"
+    },
+    {
+      "id": "2851",
+      "name": "jatin",
+      "age": "29",
+      "contact": "1234567",
+      "city": "indore"
     }
   ]
 }
