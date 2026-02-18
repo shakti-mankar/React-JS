@@ -20,6 +20,27 @@
       "age": "29",
       "contact": "1234567",
       "city": "indore"
+    },
+    {
+      "id": "de5e",
+      "name": "alaika",
+      "age": "34",
+      "contact": "674576325",
+      "city": "new york"
+    },
+    {
+      "id": "666d",
+      "name": "arsan ",
+      "age": "33",
+      "contact": "094364764",
+      "city": "karond"
+    },
+    {
+      "id": "5bc1",
+      "name": "jatin",
+      "age": "33",
+      "contact": "6232711254",
+      "city": "Bhopal"
     }
   ]
 }
