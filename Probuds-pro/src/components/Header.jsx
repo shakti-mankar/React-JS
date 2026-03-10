@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FiHome } from "react-icons/fi";
 
 function Header() {
   return (
@@ -12,8 +13,9 @@ function Header() {
 
         {/* Navigation */}
         <nav className="space-x-6">
-          <Link to="/">Home</Link>
-          <Link to="/activities">Activities</Link>
+          <FiHome /> <br />
+          <Link to="/">  Home</Link>
+          <Link to="/Play">Play</Link>
           <Link to="/venues">Venues</Link>
         </nav>
 

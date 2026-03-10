@@ -1,30 +1,49 @@
 import { useState } from "react";
 import { CgPassword } from "react-icons/cg";
+import { useNavigate } from "react-router-dom";
+import Home from "./Home";
+import { toast } from "react-toastify";
 
 function Login() {
 
-    let [loginvalue,setloginval] =  useState({
+    function forAlert(){
+      toast(" LOGIN SUCCESSFULLY " , {
+        position:"top-center",
+        type:"success",
+        autoClose:3000
+
+      }) 
+    }
+
+    const navigate = useNavigate()
+
+    let [loginval,setloginval] =  useState({
         username:"" , password:"" 
     })
 
-    function logininput(){
+    function logininput(e){
         let {name,value} = e.target
         setloginval({...loginval,[name]:value})
 
     }
 
-    function handlesubmit(e){
+    function handlelogin(e){
         e.preventDefault()
         let localdata = JSON.parse(localStorage.getItem("userdata"))
 
-        if (loginval.username != localdata.email || logininput.password != localdata.password ){
-            alert(" SIGN UP FIRST  ")
+        if (loginval.username != localdata.username || loginval.password != localdata.password ){
+            alert(" SIGN UP FIRST ")
+
         }
 
         else{
-            alert("Login Successfully")
+            alert(forAlert)
+            navigate("./Home")
+            
         }
     }
+
+    
 
 
 
@@ -68,10 +87,7 @@ function Login() {
         />
 
 
-        <input type="submit"  className="w-full bg-green-600 text-white py-3 rounded-lg"
-        
-        
-        />
+        <input type="submit"  className="w-full bg-green-600 text-white py-3 rounded-lg" />
 
         </form>
       </div>
