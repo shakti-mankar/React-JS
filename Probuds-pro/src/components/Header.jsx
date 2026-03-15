@@ -12,8 +12,8 @@ function Header() {
         </h1>
 
         {/* Navigation */}
-        <nav className="space-x-6">
-          <FiHome /> <br />
+        
+        <nav className="space-x-6"> <FiHome /> 
           <Link to="/">  Home</Link>
           <Link to="/Play">Play</Link>
           <Link to="/venues">Venues</Link>

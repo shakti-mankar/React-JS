@@ -6,14 +6,6 @@ import { toast } from "react-toastify";
 
 function Login() {
 
-    function forAlert(){
-      toast(" LOGIN SUCCESSFULLY " , {
-        position:"top-center",
-        type:"success",
-        autoClose:3000
-
-      }) 
-    }
 
     const navigate = useNavigate()
 
@@ -37,8 +29,13 @@ function Login() {
         }
 
         else{
-            alert(forAlert)
-            navigate("./Home")
+        toast(" LOGIN SUCCESSFULLY " , {
+        position:"top-center",
+        type:"success",
+        autoClose:3000
+
+      })
+            navigate("/")
             
         }
     }

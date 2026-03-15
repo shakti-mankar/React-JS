@@ -6,10 +6,17 @@ import Community from "./Pages/Community";
 import Venues from "./Pages/Venue";
 import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
+import VenueCard from "./components/VenueCard";
+import GameCard from "./components/GameCard";
+import SportCard from "./components/SportCard";
 
 
 function App() {
   return (
+
+
+
+
     <Routes>
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
