@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import MainLayout from "./Layout/Mainlayout";
-import Play from "./Pages/Play";
+import Book from "./Pages/Book";
 import Community from "./Pages/Community";
-import Venues from "./Pages/Venue";
+import Train from "./Pages/Train";
 import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
 import VenueCard from "./components/VenueCard";
@@ -20,9 +20,9 @@ function App() {
     <Routes>
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
-        <Route path="Play" element={<Play />} />
-        <Route path="venues" element={<Venues />} />
-        <Route path="community" element={<Community />} />
+        <Route path="Book" element={<Book />} />
+        <Route path="Train" element={<Train />} />
+        {/* <Route path="community" element={<Community />} /> */}
 
 
         {/* for login and sign up  */}

@@ -13,10 +13,10 @@ function Header() {
 
         {/* Navigation */}
         
-        <nav className="space-x-6"> <FiHome /> 
+        <nav className="space-x-6"  > 
           <Link to="/">  Home</Link>
-          <Link to="/Play">Play</Link>
-          <Link to="/venues">Venues</Link>
+          <Link to="/Book">Book</Link>
+          <Link to="/Train">Train</Link>
         </nav>
 
         {/* Auth Buttons */}

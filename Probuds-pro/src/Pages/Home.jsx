@@ -8,25 +8,25 @@ function Home() {
 
    const blogs = [
     {
-      img: "https://images.unsplash.com/photo-1599058917212-d750089bc07e",
+      img: "volly.gif",
       title: "Learn Volleyball in 5!",
       desc: "The most simplified Volleyball manual.",
       date: "SEPTEMBER 26, 2018 | PLAYO"
     },
     {
-      img: "https://images.unsplash.com/photo-1521417531039-158e4b4b4c21",
+      img: "celebnames.jpeg",
       title: "Names Celebrated by Cricket",
       desc: "Understand what it takes to become a legend.",
       date: "MARCH 3, 2016 | SHERYL THOMAS"
     },
     {
-      img: "https://images.unsplash.com/photo-1517649763962-0c623066013b",
+      img: "etl.png",
       title: "Easy-to-Learn Badminton",
       desc: "Get a peek of game basics.",
       date: "AUGUST 2, 2019 | NIDHI PATEL"
     },
     {
-      img: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2",
+      img: "spec.jpeg",
       title: "A Spectator’s Tournament",
       desc: "How to prepare for a game.",
       date: "JANUARY 12, 2022 | PLAYO"
@@ -153,28 +153,28 @@ function Home() {
           <div className="grid md:grid-cols-4 gap-6">
 
             <VenueCard
-              image="https://images.unsplash.com/photo-1587385789097-0197a7fbd179"
+              image="picklepark.webp"
               title="Picklepark Bhopal"
               location="Bhojpur Club"
               rating="3.00"
             />
 
             <VenueCard
-              image="https://images.unsplash.com/photo-1517649763962-0c623066013b"
+              image="bhelOfficers.webp"
               title="BHEL Officers Club"
               location="BHEL Campus"
               rating="5.00"
             />
 
             <VenueCard
-              image="https://images.unsplash.com/photo-1521417531039-158e4b4b4c21"
+              image="olympo.webp"
               title="Olympo Badminton"
               location="Plot No-125"
               rating="3.67"
             />
 
             <VenueCard
-              image="https://images.unsplash.com/photo-1505666287802-931dc83a6e3f"
+              image="letspadel.webp"
               title="Lets Padel Bhopal"
               location="Kachnar Court"
               rating="5.00"
@@ -224,32 +224,32 @@ function Home() {
           <div className="grid md:grid-cols-6 gap-6">
 
             <SportCard
-              image="https://images.unsplash.com/photo-1517649763962-0c623066013b"
+              image="badminton.avif"
               name="Badminton"
             />
 
             <SportCard
-              image="https://images.unsplash.com/photo-1508098682722-e99c43a406b2"
+              image="football.webp"
               name="Football"
             />
 
             <SportCard
-              image="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e"
+              image="cricket.avif"
               name="Cricket"
             />
 
             <SportCard
-              image="https://images.unsplash.com/photo-1517836357463-d25dfeac3438"
+              image="swim.avif"
               name="Swimming"
             />
 
             <SportCard
-              image="https://images.unsplash.com/photo-1521417531039-158e4b4b4c21"
+              image="tennis.avif"
               name="Tennis"
             />
 
             <SportCard
-              image="https://images.unsplash.com/photo-1599058917212-d750089bc07e"
+              image="TT.avif"
               name="Table Tennis"
             />
 
@@ -351,27 +351,27 @@ function Home() {
           <div className="grid grid-cols-3 gap-4">
 
             <img
-              src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac"
+              src="t5.avif"
               className="rounded-xl h-32 object-cover"
             />
 
             <img
-              src="https://images.unsplash.com/photo-1520975922284-8b456906c813"
+              src="t6.avif"
               className="rounded-xl h-32 object-cover col-span-2"
             />
 
             <img
-              src="https://images.unsplash.com/photo-1517649763962-0c623066013b"
+              src="t7.avif"
               className="rounded-xl h-32 object-cover"
             />
 
             <img
-              src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2"
+              src="t1.avif"
               className="rounded-xl h-32 object-cover"
             />
 
             <img
-              src="https://images.unsplash.com/photo-1521417531039-158e4b4b4c21"
+              src="t2.avif"
               className="rounded-xl h-32 object-cover"
             />
 
