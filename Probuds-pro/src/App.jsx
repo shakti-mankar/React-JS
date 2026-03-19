@@ -9,7 +9,7 @@ import Signup from "./Pages/Signup";
 import VenueCard from "./components/VenueCard";
 import GameCard from "./components/GameCard";
 import SportCard from "./components/SportCard";
-import BookingForm from "./Pages/Bookingform";
+import Bookingform from "./Pages/Bookingform";
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="Book" element={<Book />} />
         <Route path="Train" element={<Train />} />
-        <Route path="/BookingForm/:id" element={<BookingForm />} />
+        <Route path="/Bookingform/" element={<Bookingform />} />
         {/* <Route path="community" element={<Community />} /> */}
 
 
