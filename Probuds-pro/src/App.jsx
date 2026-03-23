@@ -10,6 +10,7 @@ import VenueCard from "./components/VenueCard";
 import GameCard from "./components/GameCard";
 import SportCard from "./components/SportCard";
 import Bookingform from "./Pages/Bookingform";
+import Invoice from "./Pages/invoice";
 
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
 
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/invoice" element={<Invoice />} />
+        
 
 
     

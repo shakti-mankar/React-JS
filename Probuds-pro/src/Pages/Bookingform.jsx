@@ -535,11 +535,24 @@ function Bookingform() {
                 ))}
               </div>
 
-              <div className="px-6 py-6">
+              import { useNavigate } from "react-router-dom";
+
+const navigate = useNavigate();
+
+<button
+  onClick={() =>
+    navigate("/invoice", { state: { cartItems, totalAmount, venue } })
+  }
+  className="h-[64px] w-full rounded-[8px] bg-[#06c167] text-[18px] font-bold text-white"
+>
+  Proceed INR {totalAmount.toFixed(2)}
+</button>
+
+              {/* <div className="px-6 py-6">
                 <button className="h-[64px] w-full rounded-[8px] bg-[#06c167] text-[18px] font-bold text-white transition hover:bg-[#05b45f]">
                   Proceed INR {totalAmount.toFixed(2)}
                 </button>
-              </div>
+              </div> */}
             </>
           )}
         </div>
