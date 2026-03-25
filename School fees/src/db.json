@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "Shakti",
+      "password": "123",
+      "role": "student"
+    },
+    {
+      "id": "2",
+      "username": "Vikash",
+      "password": "123",
+      "role": "student"
+    },
+    {
+      "id": "3",
+      "username": "Jatin",
+      "password": "123",
+      "role": "student"
+    },
+    {
+      "id": "4",
+      "username": "Sumit",
+      "password": "123",
+      "role": "student"
+    },
+    {
+      "id": "2",
+      "username": "admin",
+      "password": "admin",
+      "role": "admin"
+    }
+  ],
+  "payments": [
+    {
+      "id": "f805",
+      "name": "Shakti",
+      "class": "10",
+      "dues": "20000",
+      "amount": "10000"
+    }
+  ]
+}
